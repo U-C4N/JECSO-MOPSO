@@ -1,0 +1,55 @@
+{
+  "engine_name": "CFM56-7B",
+  "manufacturer": "CFM International",
+  "application": "Boeing 737 Next Generation",
+  "design_variables": {
+    "fan_diameter": 155,
+    "compressor_diameter": 69,
+    "combustion_chamber_volume": 0.2,
+    "turbine_diameter": 72
+  },
+  "performance_data": {
+    "maximum_thrust": {
+      "sea_level": 121.4,
+      "cruise": 28.4
+    },
+    "overall_pressure_ratio": 32.8,
+    "bypass_ratio": 5.1,
+    "specific_fuel_consumption": {
+      "sea_level": 9.4,
+      "cruise": 16.9
+    },
+    "air_mass_flow_rate": {
+      "sea_level": 1200,
+      "cruise": 360
+    },
+    "turbine_inlet_temperature": 1650,
+    "thrust_to_weight_ratio": 5.2
+  },
+  "dimensions": {
+    "length": 291,
+    "fan_diameter": 155,
+    "dry_weight": 2370
+  },
+  "material_properties": {
+    "fan_blades": {
+      "material": "Titanium alloy",
+      "density": 4500,
+      "yield_strength": 1100
+    },
+    "compressor_blades": {
+      "material": "Nickel alloy",
+      "density": 8000,
+      "yield_strength": 1200
+    },
+    "turbine_blades": {
+      "material": "Nickel-based superalloy",
+      "density": 8500,
+      "yield_strength": 1400
+    }
+  },
+  "cost_data": {
+    "unit_cost": 12500000,
+    "maintenance_cost_per_hour": 250
+  }
+}

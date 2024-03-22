@@ -1,0 +1,87 @@
+{
+  "fan_materials": [
+    {
+      "name": "Titanium_Alloy_Ti6Al4V",
+      "density": 4430,
+      "yield_strength": 1100,
+      "ultimate_tensile_strength": 1200,
+      "youngs_modulus": 113800,
+      "poissons_ratio": 0.342,
+      "thermal_expansion_coefficient": 8.6e-6,
+      "thermal_conductivity": 6.7,
+      "specific_heat_capacity": 526.3
+    },
+    {
+      "name": "Aluminum_Alloy_7075",
+      "density": 2810,
+      "yield_strength": 505,
+      "ultimate_tensile_strength": 570,
+      "youngs_modulus": 71700,
+      "poissons_ratio": 0.33,
+      "thermal_expansion_coefficient": 23.6e-6,
+      "thermal_conductivity": 130,
+      "specific_heat_capacity": 960
+    }
+  ],
+  "compressor_materials": [
+    {
+      "name": "Nickel_Alloy_Inconel_718",
+      "density": 8190,
+      "yield_strength": 1100,
+      "ultimate_tensile_strength": 1375,
+      "youngs_modulus": 200000,
+      "poissons_ratio": 0.294,
+      "thermal_expansion_coefficient": 13e-6,
+      "thermal_conductivity": 11.4,
+      "specific_heat_capacity": 435
+    },
+    {
+      "name": "Titanium_Alloy_Ti6Al2Sn4Zr2Mo",
+      "density": 4540,
+      "yield_strength": 1050,
+      "ultimate_tensile_strength": 1200,
+      "youngs_modulus": 120000,
+      "poissons_ratio": 0.32,
+      "thermal_expansion_coefficient": 7.8e-6,
+      "thermal_conductivity": 7.5,
+      "specific_heat_capacity": 460
+    }
+  ],
+  "combustion_chamber_materials": [
+    {
+      "name": "Nickel_Alloy_Hastelloy_X",
+      "density": 8220,
+      "yield_strength": 450,
+      "ultimate_tensile_strength": 790,
+      "youngs_modulus": 205000,
+      "poissons_ratio": 0.32,
+      "thermal_expansion_coefficient": 15.8e-6,
+      "thermal_conductivity": 9.1,
+      "specific_heat_capacity": 486
+    }
+  ],
+  "turbine_materials": [
+    {
+      "name": "Nickel_Superalloy_Inconel_792",
+      "density": 8200,
+      "yield_strength": 1000,
+      "ultimate_tensile_strength": 1300,
+      "youngs_modulus": 215000,
+      "poissons_ratio": 0.28,
+      "thermal_expansion_coefficient": 12.5e-6,
+      "thermal_conductivity": 8.5,
+      "specific_heat_capacity": 461
+    },
+    {
+      "name": "Cobalt_Alloy_Haynes_188",
+      "density": 8980,
+      "yield_strength": 740,
+      "ultimate_tensile_strength": 1100,
+      "youngs_modulus": 236000,
+      "poissons_ratio": 0.3,
+      "thermal_expansion_coefficient": 12.6e-6,
+      "thermal_conductivity": 11,
+      "specific_heat_capacity": 452
+    }
+  ]
+}
