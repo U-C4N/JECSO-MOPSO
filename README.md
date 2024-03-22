@@ -19,3 +19,43 @@ To use JECSO-MOPSO, follow these steps:
 1. Clone the repository:
   ```bash
   git clone https://github.com/your-username/JECSO-MOPSO.git
+Install the required dependencies:
+bash
+
+
+Copy code
+pip install -r requirements.txt
+Usage
+The repository provides a user-friendly interface to run the JECSO-MOPSO algorithm on various optimization problems. Here's a basic example:
+
+python
+
+
+Copy code
+from jecso_mopso import JECSO_MOPSO
+
+# Define the optimization problem
+problem = YourOptimizationProblem()
+
+# Set the algorithm parameters
+max_iterations = 100
+population_size = 50
+# ...
+
+# Create an instance of JECSO-MOPSO
+optimizer = JECSO_MOPSO(problem, max_iterations, population_size, ...)
+
+# Run the optimization
+pareto_front = optimizer.optimize()
+
+# Visualize the results
+optimizer.plot_pareto_front()
+For more detailed usage instructions and examples, please refer to the documentation.
+
+Test Problems
+The repository includes several benchmark test problems to evaluate the performance of JECSO-MOPSO:
+
+ZDT1: A bi-objective test problem with 30 decision variables.
+DTLZ2: A scalable test problem with a configurable number of objectives.
+Jet Engine Design Problem: A real-world case study of optimizing the component sizes of a turbofan engine.
+These test problems can be found in the test_problems directory.
