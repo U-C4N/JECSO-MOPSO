@@ -18,7 +18,7 @@ To use JECSO-MOPSO, follow these steps:
 
 1. Clone the repository:
   ```bash
-  git clone https://github.com/your-username/JECSO-MOPSO.git
+  git clone https://github.com/C1N-S4/JECSO-MOPSO.git
 Install the required dependencies:
 bash
 
