@@ -59,3 +59,6 @@ ZDT1: A bi-objective test problem with 30 decision variables.
 DTLZ2: A scalable test problem with a configurable number of objectives.
 Jet Engine Design Problem: A real-world case study of optimizing the component sizes of a turbofan engine.
 These test problems can be found in the test_problems directory.
+
+<a href="https://discord.gg/2Tutcj6u" target="blank"><img align="center" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Discord.svg" height="30" width="40" /></a>
+
